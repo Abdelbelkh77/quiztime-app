@@ -23,6 +23,7 @@ while (verderSpelen == "ja") {
 
     if (antwoord1 == "oranje" || antwoord1 == "Oranje") {
         totaalscore++;
+        console.log("Correct! Goed gedaan!");
     } else {
         console.log("Jammer!");
     }
@@ -33,6 +34,7 @@ while (verderSpelen == "ja") {
 
     if (antwoord2 == 20) {
         totaalscore++;
+        console.log("Correct! Goed gedaan!");
     } else {
         console.log("Jammer!");
     }
